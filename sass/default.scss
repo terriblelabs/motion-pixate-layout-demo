@@ -1,0 +1,34 @@
+#demo {
+  left: 0;
+  top: 0;
+  width: 320;
+  height: 480;
+  // background-color: #369;
+  background-color: radial-gradient(#69c, #369);
+  // background-image: url(images/grey.png);
+
+  @media (min-device-height: 481) {
+    background-color: red;
+    height: 568;
+  }
+
+  #speaker {
+    left: 60;
+    top: 200;
+    height: 50;
+    width: 200;
+
+    text: "Say Hello";
+    font-weight: bold;
+    color: #333;
+    font-size: 24;
+
+    // background-color: #ccc;
+    background-color: linear-gradient(#fff, #888);
+    box-shadow: 2 2 5 rgba(0,0,0,.5);
+
+
+    border: 1 solid #666;
+    border-radius: 10;
+  }
+}

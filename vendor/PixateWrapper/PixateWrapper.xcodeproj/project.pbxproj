@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEA538081713513800A1E575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA538071713513800A1E575 /* Foundation.framework */; };
+		FEA538181713524900A1E575 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA538171713524900A1E575 /* CoreGraphics.framework */; };
+		FEA5381E1713582D00A1E575 /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA5381D1713582D00A1E575 /* PXEngine.framework */; };
+		FEA53822171359CD00A1E575 /* PixateWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA53821171359CD00A1E575 /* PixateWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEA538021713513800A1E575 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FEA538041713513800A1E575 /* libPixateWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPixateWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA538071713513800A1E575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEA5380B1713513800A1E575 /* PixateWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PixateWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		FEA538171713524900A1E575 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEA5381D1713582D00A1E575 /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = PixateWrapper/PXEngine.framework; sourceTree = "<group>"; };
+		FEA53820171359CD00A1E575 /* PixateWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixateWrapper.h; sourceTree = "<group>"; };
+		FEA53821171359CD00A1E575 /* PixateWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixateWrapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA538011713513800A1E575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA538181713524900A1E575 /* CoreGraphics.framework in Frameworks */,
+				FEA538081713513800A1E575 /* Foundation.framework in Frameworks */,
+				FEA5381E1713582D00A1E575 /* PXEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEA537FB1713513800A1E575 = {
+			isa = PBXGroup;
+			children = (
+				FEA538091713513800A1E575 /* PixateWrapper */,
+				FEA538061713513800A1E575 /* Frameworks */,
+				FEA538051713513800A1E575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA538051713513800A1E575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA538041713513800A1E575 /* libPixateWrapper.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA538061713513800A1E575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5381D1713582D00A1E575 /* PXEngine.framework */,
+				FEA538171713524900A1E575 /* CoreGraphics.framework */,
+				FEA538071713513800A1E575 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA538091713513800A1E575 /* PixateWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				FEA53820171359CD00A1E575 /* PixateWrapper.h */,
+				FEA53821171359CD00A1E575 /* PixateWrapper.m */,
+				FEA5380A1713513800A1E575 /* Supporting Files */,
+			);
+			path = PixateWrapper;
+			sourceTree = "<group>";
+		};
+		FEA5380A1713513800A1E575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEA5380B1713513800A1E575 /* PixateWrapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA538031713513800A1E575 /* PixateWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA538121713513800A1E575 /* Build configuration list for PBXNativeTarget "PixateWrapper" */;
+			buildPhases = (
+				FEA538001713513800A1E575 /* Sources */,
+				FEA538011713513800A1E575 /* Frameworks */,
+				FEA538021713513800A1E575 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixateWrapper;
+			productName = PixateWrapper;
+			productReference = FEA538041713513800A1E575 /* libPixateWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA537FC1713513800A1E575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Cybex;
+			};
+			buildConfigurationList = FEA537FF1713513800A1E575 /* Build configuration list for PBXProject "PixateWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEA537FB1713513800A1E575;
+			productRefGroup = FEA538051713513800A1E575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA538031713513800A1E575 /* PixateWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA538001713513800A1E575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA53822171359CD00A1E575 /* PixateWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEA538101713513800A1E575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEA538111713513800A1E575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA538131713513800A1E575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PixateWrapper.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ios/cybex_mobile_apps/vendor\"",
+					"\"$(SRCROOT)/PixateWrapper\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateWrapper/PixateWrapper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FEA538141713513800A1E575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PixateWrapper.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ios/cybex_mobile_apps/vendor\"",
+					"\"$(SRCROOT)/PixateWrapper\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixateWrapper/PixateWrapper-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA537FF1713513800A1E575 /* Build configuration list for PBXProject "PixateWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA538101713513800A1E575 /* Debug */,
+				FEA538111713513800A1E575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA538121713513800A1E575 /* Build configuration list for PBXNativeTarget "PixateWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA538131713513800A1E575 /* Debug */,
+				FEA538141713513800A1E575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA537FC1713513800A1E575 /* Project object */;
+}
